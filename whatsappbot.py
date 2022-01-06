@@ -9,7 +9,7 @@ driver.get('https://web.whatsapp.com/')
 time.sleep(10)
 
 contatos = ['O Caronte']
-mensagem = 'GAY'
+mensagem = 'Oi'
 
 def buscar_contato(contato):
 	campo_pesquisa = driver.find_elements_by_xpath('//div[contains(@class, "copyable-text selectable-text")]')
